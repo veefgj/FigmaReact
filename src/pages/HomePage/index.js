@@ -1,5 +1,19 @@
+import Header from "~/components/Header";
+import Learn from "~/components/Learn";
+import MobileApp from "~/components/MobileApp";
+import Platforms from "~/components/Platforms";
+import Footer from "~/components/Footer";
+
 function HomePage() {
-    return <h2>Home Page</h2>;
+  return (
+    <>
+      <Header />
+      <Platforms />
+      <MobileApp />
+      <Learn />
+      <Footer />
+    </>
+  );
 }
 
 export default HomePage;
